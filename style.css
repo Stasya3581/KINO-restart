@@ -193,7 +193,7 @@
                                     flex-direction: column;
                                     width: 100%;
                                     margin: 0px;
-                                    padding-right: 75px;
+                                    /* padding-right: 75px; */
                                     
                                 }
                                 .what-know .section-title {
@@ -215,6 +215,7 @@
                                 padding: 0px;
                                 margin-top: 55px;
                                 margin-bottom: 230px;
+                                padding-left: 30px;
                                 
                                 }
                                     .programm-class-general {
@@ -227,6 +228,10 @@
                                         display: flex;
                                         flex-wrap: wrap;
                                         margin: 110px 0px 140px 0px;
+                                    }
+                                    .programm-class .zero {
+                                        visibility: hidden;
+
                                     }
                                     .programm-class-general .section-title{
 
@@ -395,7 +400,7 @@
                                                                             font-size: 25px;
                                                                             line-height: 25px;
                                                                             padding: 49px 0px 0px 0px; 
-                                                                            max-width: 1140px;
+                                                                            min-width: 1140px;
                                                                         }
                                                                         footer .mobile p {
                                                                             display: inline-block;
@@ -429,4 +434,143 @@
                                                                             line-height: 18px;
                                                                             margin-top: 150px;
                                                                         }
-                                                                            
+
+@media (max-width:1279px) {
+
+    .wrapper-how-to-watch {
+        max-width: 1100px;
+        padding: 0px 70px;
+    }
+
+    
+    .what-know .section-title {
+    
+    font-size: 32px;
+    line-height: 32px;
+    
+    }
+    .what-know .cheklist {
+    font-size: 14px;
+    line-height: 150%;
+    max-width: 400px ;
+    margin-top: 25px;/*???*/
+    margin-bottom: 143px; 
+    padding-left: 10px;
+    
+    }
+        
+        .programm-class {
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-evenly;
+            margin: 60px 0px 53px 0px;
+        }
+        .programm-class-general .section-title {
+    
+            font-size: 32px;
+            line-height: 32px;
+        }
+        
+        .programm-class .infocard {
+            max-width: 230px;
+            max-height: 190px;
+            margin: 15px 0px ;
+            
+        }
+        .programm-class .imgcard {
+            max-width: 233px;
+            
+        }
+        .programm-class .info {
+            width: 100%;
+            padding: 0px 0px 10px 10px;
+        }
+
+        .programm-class .subtitle {
+            font-size: 17px;
+            line-height: 22px;
+            padding-top: 0px;           
+        }
+        .programm-class .date-name {
+            font-size: 14px;
+            line-height: 22px;
+            padding-top: 8px;
+            
+        }
+        .programm-class .date-name-long{
+            font-size: 14px;
+            line-height: 22px;
+            padding-top: 0px;
+            
+        }
+}
+    
+@media (max-width: 992px) {
+    .wrapper-how-to-watch{
+        
+        max-width: 900px;
+        padding: 0px 36px;
+    }
+
+    .what-know .section-title {
+    
+    font-size: 26px;
+    line-height: 26px;
+    
+    }
+    .what-know .cheklist {
+    font-size: 14px;
+    line-height: 150%;
+    max-width: 300px ;
+    margin-top: 25px;
+    margin-bottom: 80px; 
+    padding-left: 8px;
+    
+    }
+        
+        .programm-class {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin: 47px 0px 53px 47px;
+        }
+        .programm-class-general .section-title {
+    
+            font-size: 26px;
+            line-height: 26px;
+        }
+        
+        .programm-class .infocard {
+            max-width: 186px;
+            max-height: 147px;
+            border-radius: 15px;
+ 
+        }
+        .programm-class .imgcard {
+            max-width: 186px;
+            border-radius: 5px 5px 0 0;
+            
+        }
+        .programm-class .info {
+            width: 100%;
+            padding: 0px 0px 5px 10px;
+        }
+
+        .programm-class .subtitle {
+            font-size: 14px;
+            line-height: 14px;
+            padding-top: 0px;           
+        }
+        .programm-class .date-name {
+            font-size: 12px;
+            line-height: 16px;
+            padding-top: 5px;
+            
+        }
+        .programm-class .date-name-long{
+            font-size: 12px;
+            line-height: 16px;
+            padding-top: 0px;
+            
+        }
+}
