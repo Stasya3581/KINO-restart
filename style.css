@@ -2,7 +2,7 @@
 @import './fonts.css';
 
 * {
-    margin: auto 0px;
+    margin: 0px;
     padding: 0px;
     /* box-sizing: border-box;  */
     
@@ -10,8 +10,10 @@
 
     .wrapper-how-to-watch{
         width: 100%;
-        max-width: 1600px;
-        margin: 0 121px;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-left: 121px;
+        padding-right: 121px;
     }
     .how-to-watch{
         font-family: Roboto;
@@ -40,7 +42,7 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 72px;
-        max-width: 1072px ;
+        min-width: 1072px ;
     }
 
     .how-to-watch h1{
@@ -107,7 +109,7 @@
                 justify-content: space-between;
                 margin-top: 0px; 
                 margin-right: 10px;
-                max-width: 1180px;
+                min-width: 1180px;
 
             }
             .about-course .text-about{
@@ -162,8 +164,8 @@
                         .format-study .content {
                             display: flex;
                             flex-direction: row;
-                            justify-content: space-between ;
-                            max-width: 970px ;
+                            justify-content: flex-start ;
+                            min-width: 970px ;
                             margin-top: 128px;
                         }
                         .format-study .title{
@@ -186,13 +188,16 @@
                         }
                         .format-study .content-format{
                             max-width: 260px;
+                            margin: 0px 87px 0px 0px;
                         }
  @media (max-width: 1279px){
                                                                         
     .wrapper-how-to-watch{
-      width: 100%;
-      max-width: 834px;
-      margin-left: 70px;
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding-left: 70px;
+        padding-right: 70px;
     }       
     .how-to-watch{
         margin-top: 21px;
@@ -213,7 +218,7 @@
     }
     .how-to-watch .content{
         margin-bottom: 30px;
-        max-width: 620px ;
+        min-width: 620px ;
     }
     .how-to-watch h1{
         font-size: 46px;
@@ -264,7 +269,7 @@
            .about-course .content{
                 margin-top: 10px; 
                 margin-right: 0px;
-                max-width: 695px;
+                min-width: 695px;
 
             }
             .about-course .text-about{
@@ -280,7 +285,7 @@
             }
             .about-course .bottom{
                 margin-top: 40px;
-                max-width: 567px ;
+                min-width: 567px ;
             }
             .about-course .items{
                 margin: 42px 0px 30px 0px;
@@ -308,7 +313,7 @@
                             margin-top: 101px;
                         }
                         .format-study .content {
-                            max-width: 583px ;
+                            min-width: 583px ;
                             margin-top: 75px;
                         }
                         .format-study .title{
@@ -329,7 +334,7 @@
                                                                         
     .wrapper-how-to-watch{
       width: 100%;
-      max-width: 375px;
+      max-width: 900px;
       margin-left: 35px;
     }       
     .how-to-watch{
@@ -353,7 +358,7 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 40px;
-        max-width: 307px ;
+        min-width: 307px ;
     }
     .how-to-watch h1{
         font-size: 37px;
@@ -405,7 +410,7 @@
                 flex-direction: column;
                 margin-top: 10px; 
                 margin-right: 0px;
-                max-width: 695px;
+                min-width: 695px;
 
             }
             .about-course .text-about{
@@ -421,7 +426,7 @@
             }
             .about-course .bottom{
                 margin-top: 32px;
-                max-width: 206px;
+                min-width: 206px;
                 flex-wrap: wrap;
             }
             .about-course .items{
@@ -464,7 +469,7 @@
                             margin-top: 3px;                           
                         }
                         .format-study .content-format{
-                            max-width: 180px;
+                            min-width: 180px;
                             margin: 33px 21px 0px 0px;
                         }                                                                                                                                  
  }
