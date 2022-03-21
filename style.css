@@ -3,13 +3,9 @@
 
 * {
     margin: 0px;
-    padding: 0px;
-    /* box-sizing: border-box;  */
-    
+    padding: 0px;   
 }
-
     .wrapper-how-to-watch{
-        /* width: 100%; */
         max-width: 1500px;
         margin: 0 auto;
         padding-left: 121px;
@@ -19,7 +15,6 @@
         font-family: Roboto;
         box-sizing: border-box;
         margin-top: 21px;
-        /* margin: auto; */
     }
     .how-to-watch .logo img{
         width: 112px;
@@ -190,7 +185,6 @@
  @media (max-width: 1279px){
                                                                         
     .wrapper-how-to-watch{
-        /* width: 100%; */
         max-width: 900px;
         margin: 0 auto;
         padding-left: 70px;
@@ -266,11 +260,10 @@
            .about-course .content{
                 margin-top: 10px; 
                 margin-right: 0px;
-                min-width: 695px;
-
+                min-width: 675px;
             }
             .about-course .text-about{
-                min-width: 384px;
+                max-width: 450px;
                 font-size: 14px;
                 line-height: 21px;
                 margin-top: 22px;
@@ -331,15 +324,15 @@
  @media (max-width: 991px){
                                                                         
     .wrapper-how-to-watch{
-        /* width: 100%; */
-        max-width: 800px;
+        width: 100%;
+        max-width: 375px;
         margin: 0 auto;
         padding-left: 36px;
         padding-right: 36px;
     }       
     .how-to-watch{
         margin-top: 36px;
-        min-width: 834px;
+        width: 100%;
     }
     .how-to-watch .logo img{
             width: 52px;
@@ -365,6 +358,7 @@
         font-size: 37px;
         line-height: 37px;
         margin: 10px 0px 13px 0px;
+        max-width: 290px;
     }
     .how-to-watch .text p{
         font-size: 12px;
@@ -427,12 +421,13 @@
             }
             .about-course .bottom{
                 margin-top: 32px;
-                max-width: 206px;
-                justify-content: space-between;
+                min-width: 206px;
+                max-width: 300px;
+                justify-content: flex-start;
                 flex-wrap: wrap;
             }
             .about-course .items{
-                margin: 0px 0px 25px 0px;
+                margin: 0px 45px 25px 0px;
             }
             .about-course .title-items{
                 font-size: 12px;
