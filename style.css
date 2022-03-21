@@ -4,14 +4,14 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; нах???? белая полоса это граница подложки перфект пикселя походу*/
     
 }
 
     .wrapper-how-to-watch{
         width: 100%;
-        max-width: 1600px;
-        margin: 0 121px;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 0px 121px;
     }
     .how-to-watch{
         font-family: Roboto;
@@ -40,9 +40,9 @@
     .how-to-watch .content{
         display: flex;
         justify-content: space-between;
-        padding-right: 245px;
+
         margin-bottom: 95px;
-        max-width: 1072px ;
+        min-width: 1072px ;
     }
 
     .how-to-watch h1{
@@ -104,7 +104,8 @@
                 display: flex;
                 justify-content: space-between;
                 margin-top: 30px; 
-                max-width: 1180px;
+                min-width: 1180px;
+                
 
             }
             .about-course .text-about{
@@ -120,6 +121,7 @@
             .about-course .content img{
                 width: 366px;
                 padding-top: 50px; 
+                
             }
             .about-course .bottom{
                 font-family: Roboto;
@@ -161,9 +163,9 @@
                            
                             display: flex;
                             flex-direction: row;
-                            justify-content: space-between ;
-                            max-width: 970px ;
-                            margin-top: 130px;
+                            justify-content: flex-start;
+                            min-width: 970px ;
+                            margin-top: 128px;
                         }
                         .format-study .title{
                             font-family: Roboto;
@@ -185,13 +187,14 @@
                         }
                         .format-study .content-format{
                             max-width: 260px;
+                            margin: 0px 87px 0px 0px;
                         }
                                 .what-know { 
                                     flex-direction: column;
                                     width: 100%;
                                     margin: 0px;
                                     padding-right: 75px;
-                                    max-width: 1600px;
+                                    
                                 }
                                 .what-know .section-title {
                                 font-family: 'Roboto Slab';
@@ -223,8 +226,7 @@
                                     .programm-class {
                                         display: flex;
                                         flex-wrap: wrap;
-                                        max-width: 1300px;
-                                        margin: 110px 0px 140px 75px;
+                                        margin: 110px 0px 140px 0px;
                                     }
                                     .programm-class-general .section-title{
 
