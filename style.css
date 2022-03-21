@@ -9,7 +9,7 @@
 }
 
     .wrapper-how-to-watch{
-        width: 100%;
+        /* width: 100%; */
         max-width: 1500px;
         margin: 0 auto;
         padding-left: 121px;
@@ -92,9 +92,6 @@
             .about-course{
                 padding-top: 137px;
                 }
-           /* .about-course .section-title{
-                margin: 0px; 
-            } */
             .section-title{
                 font-family: Roboto Slab;
                 font-weight: bold;
@@ -129,7 +126,7 @@
                 font-family: Roboto;
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between ;
+                justify-content: space-around;
                 margin-top: 61px;
                 max-width: 985px ;
             }
@@ -193,8 +190,8 @@
  @media (max-width: 1279px){
                                                                         
     .wrapper-how-to-watch{
-        width: 100%;
-        max-width: 1100px;
+        /* width: 100%; */
+        max-width: 900px;
         margin: 0 auto;
         padding-left: 70px;
         padding-right: 70px;
@@ -273,7 +270,7 @@
 
             }
             .about-course .text-about{
-                max-width: 384px;
+                min-width: 384px;
                 font-size: 14px;
                 line-height: 21px;
                 margin-top: 22px;
@@ -284,6 +281,7 @@
                 padding: 37px 4px 10px 10px; 
             }
             .about-course .bottom{
+                justify-content: space-around;
                 margin-top: 40px;
                 min-width: 567px ;
             }
@@ -333,12 +331,15 @@
  @media (max-width: 991px){
                                                                         
     .wrapper-how-to-watch{
-      width: 100%;
-      max-width: 900px;
-      margin-left: 35px;
+        /* width: 100%; */
+        max-width: 800px;
+        margin: 0 auto;
+        padding-left: 36px;
+        padding-right: 36px;
     }       
     .how-to-watch{
         margin-top: 36px;
+        min-width: 834px;
     }
     .how-to-watch .logo img{
             width: 52px;
@@ -426,7 +427,8 @@
             }
             .about-course .bottom{
                 margin-top: 32px;
-                min-width: 206px;
+                max-width: 206px;
+                justify-content: space-between;
                 flex-wrap: wrap;
             }
             .about-course .items{
