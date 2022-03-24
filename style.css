@@ -187,9 +187,7 @@
                         flex-direction: column;
                         width: 100%;
                         margin: 0px;
-                        /* padding-right: 75px; */
-                        /* padding-right: 75px; */
-
+                
                     }
                     .what-know .section-title {
                     font-family: 'Roboto Slab';
@@ -223,8 +221,7 @@
                             display: flex;
                             flex-wrap: wrap;
                             margin: 110px 0px 140px 0px;
-                            /* padding-left: 121px;
-                            padding-right: 121px; */
+                    
                         }
                         .programm-class .zero {
                             visibility: hidden;
@@ -284,7 +281,6 @@
                                     background-color: #EFEFEF;
                                 }
                                 .kurscount .section-title{
-                                /* text-align: center; */
                                 font-family: 'Roboto Slab';
                                 font-style: normal;
                                 font-weight: 700;
@@ -297,8 +293,6 @@
                                     background-color: #fff;
                                     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
                                     margin-top: 73px;
-                                    /* margin-left: auto;
-                                    margin-right: auto; */
                                     padding: 39px 45px 39px 43px;
                                 }
                                 .kurscount .review-card p{
@@ -332,7 +326,6 @@
                          
                                         .start-course{
                                             width: 100%;
-                                            /* height: 780px; */
                                             margin: 0;
                                             background-color: #9DC9C8;
                                             margin-top: 0px;
@@ -340,7 +333,7 @@
                                             font-weight: 400;
                                         }
                                         .start-course .information{
-                                            padding: 175px 0px 68px 0px;
+                                            padding: 103px 0px 103px 0px;
                                         }
                                         .start-course .section-title{
                                             margin: 0px;
@@ -379,7 +372,6 @@
                                         }
                                                 footer{
                                                     width: 100%;
-                                                    /* height: 390px;  */
                                                     margin: 0;
                                                     background-color: #000000;
                                                     margin-top: 0px;
@@ -585,18 +577,15 @@
                                 font-size: 14px;
                                 line-height: 150%;
                                 max-width: 400px ;
-                                margin-top: 25px;/*???*/
+                                margin-top: 25px;
                                 margin-bottom: 80px; 
                                 padding-left: 10px;
                                 }
                     
                             .programm-class {
                                 display: flex;
-                                /* flex-wrap: wrap; */
                                 justify-content: space-evenly;
                                 margin: 60px 0px 53px 0px;
-                                /* padding-left: 70px;
-                                padding-right: 70px; */
                             }
                             .programm-class-general .section-title {
                     
@@ -642,7 +631,6 @@
                                         background-color: #EFEFEF;
                                     }
                                     .kurscount .section-title{
-                                        /* text-align: center; */
                                         font-family: 'Roboto Slab';
                                         font-weight: 700;
                                         font-size: 32px;
@@ -689,11 +677,7 @@
                                     .kurscount .review-card .contact{ 
                                         margin-left: 17px;
                                     }
-                                            /* .start-course{
-                                                width: 100%;
-                                                max-width: 834px;
-                                                margin: auto;
-                                            } */
+
                                             .start-course{
                                                 width: 100%;
                                                 height: 400px;
@@ -705,7 +689,6 @@
                                             }
                                             .start-course .information{
                                                 padding: 70px 0px 68px 0px;
-                                                /* margin-left: 50px; */
                                             }
                                             .start-course .section-title{
                                                 margin-top: 0px;
@@ -1055,8 +1038,6 @@
                                             background-color: #fff;
                                             box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
                                             margin-top: 27px;
-                                            /* margin-left: auto;
-                                            margin-right: auto; */
                                             padding: 22px 18px ;
                                         }
                                         .kurscount .review-card p{
@@ -1093,7 +1074,6 @@
                                             width: 100%;
                                             min-width: 375px;
                                             margin-left: auto;
-                                            /* height: 300px; */
                                             }
                                             
                                             .start-course{
