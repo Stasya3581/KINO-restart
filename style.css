@@ -1,0 +1,1234 @@
+@import './normalize.css';
+@import './fonts.css';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.wrapper-how-to-watch{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 121px;
+    padding-right: 121px;
+}
+.how-to-watch{
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin-top: 21px;
+}
+.how-to-watch .logo img{
+    width: 112px;
+}
+.how-to-watch header{
+ 
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    padding-top: 95px;
+}
+.how-to-watch .item p {
+    display: inline-block;
+    margin-right: 48px;
+}
+
+.how-to-watch .content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+    min-width: 1072px ;
+}
+
+.how-to-watch h1{
+    font-family: Roboto Slab;
+    font-size: 80px;
+    line-height: 81px;
+    margin: 35px 0px 18px 0px;
+    
+
+}
+.how-to-watch .text p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    
+}
+.how-to-watch .content img{
+    padding: 11px 0px;
+}
+.how-to-watch .card{
+    max-width: 484px;
+    background-color: #1E4681;
+    border-radius: 5px;
+    color: white;
+}
+.how-to-watch .promo{
+    margin: 0px 290px ;
+
+}
+
+.how-to-watch .card .text{
+    font-family: Roboto Slab;
+    font-size: 25px;
+    line-height: 33px;
+    padding: 20px 25px 8px 25px; 
+    margin: 0px;
+}
+
+.how-to-watch .card .author{
+    text-align: right;
+    padding: 0px 20px 15px 0px;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0px;
+    
+}
+        .about-course{
+            padding-top: 137px;
+            }
+        .section-title{
+            font-family: Roboto Slab;
+            font-weight: bold;
+            font-size: 55px;
+            line-height: 55.76px;
+        }
+        .about-course .section-title{
+            margin-bottom: 15px;
+        }
+       .about-course .content{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0px; 
+            margin-right: 10px;
+            min-width: 1180px;
+
+        }
+        .about-course .text-about{
+            font-family: Roboto;
+            font-weight: normal;
+            max-width: 662px;
+            font-size: 24px;
+            line-height: 36px;
+            margin-top: 38px;
+        }
+
+        .about-course .content img{
+            width: 366px;
+            padding: 50px 0px 10px 10px; 
+        }
+        .about-course .bottom{
+            font-family: Roboto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 61px;
+            max-width: 985px ;
+        }
+        .about-course .items{
+            margin: 80px 0px 30px 0px;
+
+        }
+        .about-course .title-items{
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 32px;
+            margin: 0px;
+        }
+        .about-course .text-items{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 23px;
+
+        }
+        .about-course .bottom img {
+            width: 250px;
+
+        }
+
+                    .format-study{
+
+                        margin-bottom: 225px;
+                    }
+                    .format-study .section-title{
+                        margin-top: 171px;
+                    }
+                    .format-study .content {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start ;
+                        min-width: 970px ;
+                        margin-top: 128px;
+                    }
+                    .format-study .title{
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 25px;
+                        line-height: 32px;
+                        color: #1E4681;
+                        
+                    }
+                    .format-study p {
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 23px;
+                        margin: 0px;
+                        
+                    }
+                    .format-study .content-format{
+                        max-width: 260px;
+                        margin: 0px 87px 0px 0px;
+                    }
+                    .what-know { 
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 0px;
+                        /* padding-right: 75px; */
+                        /* padding-right: 75px; */
+
+                    }
+                    .what-know .section-title {
+                    font-family: 'Roboto Slab';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 55px;
+                    line-height: 101.38%;
+                    margin: 0px;
+                    }
+                    .what-know .cheklist {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 150%;
+                    color: #000000;
+                    max-width: 650px ;
+                    padding: 0px;
+                    margin-top: 55px;
+                    margin-bottom: 230px;
+                    padding-left: 30px;
+
+                    }
+                        .programm-class-general {
+                            font-family: Roboto;
+                            width: 100%;
+                            margin: 0 auto;
+                            padding-right: 0px;
+                        }
+                        .programm-class {
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin: 110px 0px 140px 0px;
+                            /* padding-left: 121px;
+                            padding-right: 121px; */
+                        }
+                        .programm-class .zero {
+                            visibility: hidden;
+
+                        }
+                        .programm-class-general .section-title{
+                             margin: 0px;
+                        } 
+                        .programm-class .infocard {
+                            max-width: 399px;
+                            max-height: 328px;
+                            margin: 16px;
+                            box-shadow: 0 0 8px 0px gray;
+                            border-radius: 30px;
+                            background-color: white;
+                        }
+                        .programm-class .imgcard {
+                            max-width: 399px;
+                            border-radius: 15px 15px 0 0
+                        }
+                        .programm-class .info {
+                            width: 100%;
+                            padding: 14px 14px 23px 20px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                        
+                        }
+                        .programm-class .subtitle {
+                            font-family: 'Roboto Slab', serif;
+                            font-weight: 700;
+                            font-size: 30px;
+                            line-height: 29px;
+                            margin: 0px;
+                           
+                        }
+                        .programm-class .date-name {
+                            font-family: 'Roboto';
+                            font-weight: 400;
+                            font-size: 25px;
+                            line-height: 32px;
+                            padding-top: 30px;
+                            
+                        }
+                        .programm-class .date-name-long{
+                            margin: 0px;
+                            font-family: 'Roboto';
+                            font-weight: 400;
+                            font-size: 25px;
+                            line-height: 32px;
+                            padding-top: 5px;
+                            
+                        }
+                                .kurscount{
+                                    padding-top: 90px;
+                                    padding-bottom: 100px;
+                                    background-color: #EFEFEF;
+                                }
+                                .kurscount .section-title{
+                                /* text-align: center; */
+                                font-family: 'Roboto Slab';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 55px;
+                                }
+                                .kurscount .review-card{
+                                    max-width: 791px;
+                                    box-sizing: border-box;
+                                    border-radius: 30px;
+                                    background-color: #fff;
+                                    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+                                    margin-top: 73px;
+                                    /* margin-left: auto;
+                                    margin-right: auto; */
+                                    padding: 39px 45px 39px 43px;
+                                }
+                                .kurscount .review-card p{
+                                    font-family: Roboto;
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                }
+                                .kurscount .author{
+                                    display: flex;
+                                    padding-right: 18px;
+                                }
+                                .kurscount .review-card img{
+                                    width: 190px;
+                                    height: 169px;
+                                }
+                                .kurscount .review-card h3{
+                                    font-family: Roboto Slab;
+                                    font-weight: 700;
+                                    font-size: 30px;
+                                    line-height: 30.42px;
+                                }
+                                .kurscount .review-card .contact img{
+                                    width: 32px;
+                                    height: 31px;
+                                    padding-top: 29px;
+                                }
+                                .kurscount .review-card .contact{ 
+                                    margin-left: 30px;
+                                    margin-top: 20px;
+                                }
+                         
+                                        .start-course{
+                                            width: 100%;
+                                            /* height: 780px; */
+                                            margin: 0;
+                                            background-color: #9DC9C8;
+                                            margin-top: 0px;
+                                            font-family: Roboto;
+                                            font-weight: 400;
+                                        }
+                                        .start-course .information{
+                                            padding: 175px 0px 68px 0px;
+                                        }
+                                        .start-course .section-title{
+                                            margin: 0px;
+                                        }
+                                        .start-course .price-tag{
+                                            margin: 70px 0px;
+                                        
+                                        }
+                                        .start-course .price{
+                                            font-size: 25px;
+                                            line-height: 25px;
+                                            margin: 0px;
+                                        }
+                                        .start-course .num{
+                                            font-size: 80px;
+                                            line-height: 81px;
+                                            padding-top: 5px;
+                                            margin: 0pt;
+                                        }
+                                        .start-course .information-text{
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            max-width: 700px;
+                                            
+                                        }
+                                        .start-course .information-text .subtitle{
+                                            font-size: 25px;
+                                            line-height: 25px;
+                                            margin: 0px;
+                                        }
+                                        .start-course .information-text .text{
+                                            font-size: 18px;
+                                            line-height: 18px;
+                                            padding-top: 20px;
+                                            margin: 0px;
+                                        }
+                                                footer{
+                                                    width: 100%;
+                                                    /* height: 390px;  */
+                                                    margin: 0;
+                                                    background-color: #000000;
+                                                    margin-top: 0px;
+                                                    font-family: Roboto;
+                                                    font-weight: 400;
+                                                }
+                                                footer .logo img {
+                                                    width: 115px;
+                                                    height: 68px;
+                                                }
+                                                footer .logo-contacts{
+                                                    color: white;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    font-size: 25px;
+                                                    line-height: 25px;
+                                                    padding: 49px 0px 0px 0px; 
+                                                    max-width: 1140px;
+                                                }
+                                                footer .mobile p {
+                                                    display: inline-block;
+                                                    margin: 0px;
+                                                    padding: 10px;
+                                                }
+                                                footer .mail p {
+                                                    display: inline-block;
+                                                    margin: 0px;
+                                                    padding: 10px;
+                                                }
+                                                footer .icons{
+                                                    display: flex;  
+                                                    justify-content: space-between;
+                                                    width: 198px;      
+                                                    margin-top: 28px;       
+                                                }
+                                                footer .logo-contacts .contacts img {
+                                                    width: 27px;
+                                                    height: 27px;
+                                                }
+                                                footer .icons img{
+                                                    width: 35px;
+                                                    height: 35px;
+                                                }
+                                                footer .mark{
+                                                    color: white;
+                                                    font-size: 18px;
+                                                    line-height: 18px;
+                                                    margin-top: 85px;
+                                                    padding-bottom: 50px;
+                                                }
+                                        
+
+@media (max-width: 1279px){                                                          
+.wrapper-how-to-watch{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 70px;
+    padding-right: 70px;
+}       
+.how-to-watch{
+    margin-top: 21px;
+}
+.how-to-watch .logo img{
+        width: 64.87px;
+}
+.how-to-watch header{ 
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 53px;
+}
+.how-to-watch .item p {
+    margin-right: 23px;
+}
+.how-to-watch .item img{
+    width: 13px;
+}
+.how-to-watch .content{
+    margin-bottom: 30px;
+    min-width: 620px ;
+}
+.how-to-watch h1{
+    font-size: 46px;
+    line-height: 47px;
+    margin: 11px 0px 18px 0px;
+}
+.how-to-watch .text p{
+    font-size: 12px;
+    line-height: 18px;
+}
+.how-to-watch .content img{
+    width: 176px;
+    padding: 11px 0px;
+}
+.how-to-watch .card{
+    max-width: 280px;
+    border-radius: 3px;
+}
+.how-to-watch .promo{
+    margin: 0px 167px ;
+
+}
+.how-to-watch .card .text{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 11px 25px 3px 16px; 
+    margin: 0px;
+}
+
+.how-to-watch .card .author{
+    padding: 0px 10px 15px 0px;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0px;
+    
+}
+        .about-course{
+            padding-top: 78px;
+            }
+       .about-course .section-title{
+            margin: 21px 0px 0px 0px; 
+        }
+        .section-title{
+            font-size: 32px;
+            line-height: 32px;
+        }
+       .about-course .content{
+            margin-top: 10px; 
+            margin-right: 0px;
+            min-width: 675px;
+        }
+        .about-course .text-about{
+            max-width: 450px;
+            font-size: 14px;
+            line-height: 21px;
+            margin-top: 22px;
+        }
+
+        .about-course .content img{
+            width: 212px;
+            padding: 37px 4px 10px 10px; 
+        }
+        .about-course .bottom{
+            justify-content: space-around;
+            margin-top: 40px;
+            min-width: 567px ;
+        }
+        .about-course .items{
+            margin: 42px 0px 30px 0px;
+        }
+        .about-course .title-items{
+            font-size: 15px;
+            line-height: 19px;
+            margin: 0px;
+        }
+        .about-course .text-items{
+            font-size: 11px;
+            line-height: 14px;
+        }
+        .about-course .bottom img {
+            width: 135px;
+            height: 117px;
+            margin-right: 24px;
+        }
+                    .format-study{
+                        margin-bottom: 129px;
+                    }
+                    .format-study .section-title{
+                        margin-top: 101px;
+                    }
+                    .format-study .content {
+                        min-width: 583px ;
+                        margin-top: 75px;
+                    }
+                    .format-study .title{
+                        font-size: 15px;
+                        line-height: 20px;                          
+                    }
+                    .format-study p {
+                        font-size: 11px;
+                        line-height: 14px;
+                        margin: 0px;                           
+                    }
+                    .format-study .content-format{
+                        max-width: 160px;
+                        margin: 0px 21px 0px 0px;
+                    }       
+                    .what-know .cheklist {
+                        font-size: 14px;
+                        line-height: 150%;
+                        max-width: 400px ;
+                        margin-top: 34px;
+                        margin-bottom: 143px; 
+                        padding-left: 10px;
+                    
+                        }
+                        .what-know .section-title {
+
+                            font-size: 32px;
+                            line-height: 32px;
+                        
+                            }
+                            .what-know .cheklist {
+                                font-size: 14px;
+                                line-height: 150%;
+                                max-width: 400px ;
+                                margin-top: 25px;/*???*/
+                                margin-bottom: 80px; 
+                                padding-left: 10px;
+                                }
+                    
+                            .programm-class {
+                                display: flex;
+                                /* flex-wrap: wrap; */
+                                justify-content: space-evenly;
+                                margin: 60px 0px 53px 0px;
+                                /* padding-left: 70px;
+                                padding-right: 70px; */
+                            }
+                            .programm-class-general .section-title {
+                    
+                                font-size: 32px;
+                                line-height: 32px;
+                            }
+                    
+                            .programm-class .infocard {
+                                max-width: 230px;
+                                max-height: 190px;
+                                margin: 15px 0px ;
+                    
+                            }
+                            .programm-class .imgcard {
+                                max-width: 233px;
+                    
+                            }
+                            .programm-class .info {
+                                width: 100%;
+                                padding: 0px 0px 10px 10px;
+                            }
+                    
+                            .programm-class .subtitle {
+                                font-size: 17px;
+                                line-height: 22px;
+                                padding-top: 0px;           
+                            }
+                            .programm-class .date-name {
+                                font-size: 14px;
+                                line-height: 22px;
+                                padding-top: 8px;
+                    
+                            }
+                            .programm-class .date-name-long{
+                                font-size: 14px;
+                                line-height: 22px;
+                                padding-top: 0px;
+                    
+                            }
+                                    .kurscount{
+                                        padding-top: 52px;
+                                        padding-bottom: 64px;
+                                        background-color: #EFEFEF;
+                                    }
+                                    .kurscount .section-title{
+                                        /* text-align: center; */
+                                        font-family: 'Roboto Slab';
+                                        font-weight: 700;
+                                        font-size: 32px;
+                                        line-height: 101.38%;
+                                    }
+                                    .kurscount .review-card{
+                                        max-width: 458px;
+                                        box-sizing: border-box;
+                                        border-radius: 30px;
+                                        background-color: #fff;
+                                        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+                                        margin-top: 40px;
+                                        /* margin-left: auto;
+                                        margin-right: auto; */
+                                        padding: 23px 26px ;
+                                    }
+                                    .kurscount .review-card p{
+                                        font-family: 'Roboto';
+                                        
+                                        font-weight: 400;
+                                        font-size: 12px;
+                                        line-height: 150%;
+                                    }
+                                    .kurscount .author{
+                                        display: flex;
+                                        
+                                        padding-right: 15px;
+                                    }
+                                    .kurscount .review-card img{
+                                        width: 110px;
+                                        height: 97px;
+                                    }
+                                    .kurscount .review-card h3{
+                                        font-family: Roboto Slab;
+                                        font-weight: 700;
+                                        font-size: 17px;
+                                        line-height: 101.38%;
+                                    }
+                                    .kurscount .review-card .contact img{
+                                        width: 18px;
+                                        height: 17px;
+                                        padding-top: 15px;
+                                    }
+                                    .kurscount .review-card .contact{ 
+                                        margin-left: 17px;
+                                    }
+                                            /* .start-course{
+                                                width: 100%;
+                                                max-width: 834px;
+                                                margin: auto;
+                                            } */
+                                            .start-course{
+                                                width: 100%;
+                                                height: 400px;
+                                                margin: 0;
+                                                background-color: #9DC9C8;
+                                                margin-top: 0px;
+                                                font-family: 'Roboto';
+                                                font-weight: 400;
+                                            }
+                                            .start-course .information{
+                                                padding: 70px 0px 68px 0px;
+                                                /* margin-left: 50px; */
+                                            }
+                                            .start-course .section-title{
+                                                margin-top: 0px;
+                                                font-size: 32px;
+                                                font-family: 'Roboto Slab';
+                                                font-weight: 700;
+                                                color: #000000;
+                                            }
+                                            .start-course .price-tag{
+                                                margin-top: 50px;
+                                                margin-bottom: 50px;
+                                            
+                                            }
+                                            .start-course .price{
+                                                font-size: 14px;
+                                                line-height: 15px;
+                                                font-family: 'Roboto';
+                                                font-weight: 400;
+                                                margin: 0px;
+                                                color: #000000;
+                                            }
+                                            .start-course .num{
+                                                font-size: 46px;
+                                                line-height: 46px;
+                                                font-weight: 400px;
+                                                font-family: 'Roboto';
+                                                color: #000000; 
+                                                margin-top: 0px;
+                                            }
+                                            .start-course .information-text{
+                                                display: flex;
+                                                justify-content: flex-start;
+                                                max-width: 500px;
+                                                margin-top: 60px;
+                                            }
+                                            .start-course .information-text .subtitle{
+                                                font-size: 14px;
+                                                line-height: 25px;
+                                                margin: 0px;
+                                                font-weight: 400;
+                                                font-family: 'Roboto';
+                                            }
+                                            .start-course .information-text .text{
+                                                font-size: 10px;
+                                                line-height: 10px;
+                                                margin-top: 10px;
+                                                font-family: 'Roboto';
+                                                font-weight: 400;
+                                                color: #000000;
+                                                padding-top: 0px;
+                                                padding-right: 60px;
+                                            }
+                                                    footer{
+                                                        width: 100%;
+                                                        margin: 0;
+                                                        background-color: #000000;
+                                                        margin-top: 0px;
+                                                        font-family: 'Roboto';
+                                                        font-weight: 400;
+                                                    }
+                                                    footer .logo img {
+                                                        width: 67px;
+                                                        height: 40px;
+                                                        margin-left: 0px;
+                                                        margin-top: 10px;
+                                                    }
+                                                    footer .logo-contacts{
+                                                        color: white;
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        font-size: 25px;
+                                                        line-height: 25px;
+                                                        min-width: 634px;
+                                                    }
+                                                    footer .mobile p {
+                                                        display: inline-block;
+                                                        margin: 0px;
+                                                        padding: 10px;
+                                                        font-size: 14px;
+                                                        font-weight: 400;
+                                                        font-family: 'Roboto';
+                                                    }
+                                                    footer .mail p {
+                                                        display: inline-block;
+                                                        margin: 0px;
+                                                        padding: 10px;
+                                                        font-weight: 400;
+                                                        font-size: 14px;
+                                                        font-family: 'Roboto';
+                                                    }
+                                                    footer .icons{
+                                                        display: flex;  
+                                                        justify-content: space-between;
+                                                        width: 130px;      
+                                                        margin-left: 0px;  
+                                                        margin-top: 10px;     
+                                                    }
+                                                    footer .logo-contacts .contacts img {
+                                                        width: 15px;
+                                                        height: 15px;
+                                                    }
+                                                    footer .icons img{
+                                                        width: 20px;
+                                                        height: 20px;
+                                                    }
+                                                    footer .mark{
+                                                        color: white;
+                                                        font-size: 10px;
+                                                        font-weight: 400;
+                                                        font-family: 'Roboto';
+                                                        line-height: 18px;
+                                                        margin-top: 90px;
+                                                        margin-left: 0px;
+                                                        padding-bottom: 30px;
+                                                    }
+
+                             
+}
+
+
+
+ @media (max-width: 991px){
+                                                                        
+    .wrapper-how-to-watch{
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+        padding-left: 36px;
+        padding-right: 36px;
+    }       
+    .how-to-watch{
+        margin-top: 36px;
+        width: 100%;
+    }
+    .how-to-watch .logo img{
+            width: 52px;
+    }
+    .how-to-watch header{ 
+        font-size: 10px;
+        line-height: 11px;
+        padding-top: 41px;
+    }
+    .how-to-watch .item p {
+        margin-right: 17px;
+    }
+    .how-to-watch .item img{
+        width: 10px;
+    }
+    .how-to-watch .content{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        min-width: 307px ;
+    }
+    .how-to-watch h1{
+        font-size: 37px;
+        line-height: 37px;
+        margin: 10px 0px 13px 0px;
+        max-width: 290px;
+    }
+    .how-to-watch .text p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .how-to-watch .content img{
+        width: 141px;
+        padding: 0px 0px 0px 166px;
+    }
+    .how-to-watch .card{
+        max-width: 225px;
+        border-radius: 2px;
+    }
+    .how-to-watch .promo{
+        margin: 0px 3px ;
+
+    }
+
+    .how-to-watch .card .text{
+        font-size: 11px;
+        line-height: 14px;
+        padding: 11px 25px 0px 12px; 
+        margin: 0px;
+    }
+
+    .how-to-watch .card .author{
+        padding: 3px 8px 11px 0px;
+        font-size: 10px;
+        line-height: 13px;
+        margin: 0px;
+        
+    }
+            .about-course{
+                padding-top: 55px;
+                }
+           .about-course .section-title{
+                margin: 21px 0px 0px 0px; 
+            }
+            .section-title{
+                font-size: 26px;
+                line-height: 26px;
+            }
+           .about-course .content{
+                flex-direction: column;
+                margin-top: 10px; 
+                margin-right: 0px;
+                min-width: 695px;
+
+            }
+            .about-course .text-about{
+                max-width: 308px;
+                font-size: 12px;
+                line-height: 18px;
+                margin-top: 16px;
+            }
+
+            .about-course .content img{
+                width: 170px;
+                padding: 16px 4px 10px 66px; 
+            }
+            .about-course .bottom{
+                margin-top: 32px;
+                min-width: 206px;
+                max-width: 300px;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+            .about-course .items{
+                margin: 0px 45px 25px 0px;
+            }
+            .about-course .title-items{
+                font-size: 12px;
+                line-height: 15px;
+                margin: 0px;
+            }
+            .about-course .text-items{
+                font-size: 10px;
+                line-height: 13px;
+
+            }
+            .about-course .items p{
+                margin-top: 5px;
+            }
+            .about-course .bottom img {
+                display: none;
+            }
+
+                        .format-study{
+                            margin-bottom: 79px;
+                        }
+                        .format-study .section-title{
+                            margin-top: 42px;
+                        }
+                        .format-study .content {
+                            flex-direction: column;
+                            margin-top: 0px;
+                        }
+                        .format-study .title{
+                            font-size: 12px;
+                            line-height: 15px;                          
+                        }
+                        .format-study p {
+                            font-size: 10px;
+                            line-height: 13px;
+                            margin-top: 3px;                           
+                        }
+                        .format-study .content-format{
+                            min-width: 180px;
+                            margin: 33px 21px 0px 0px;
+                        }     
+                        .what-know .section-title {
+
+                            font-size: 26px;
+                            line-height: 26px;
+                        
+                            }
+                            .what-know .cheklist {
+                            font-size: 12px;
+                            line-height: 18px;
+                            max-width: 300px ;
+                            margin-top: 25px;
+                            margin-bottom: 63px; 
+                            padding-left: 8px;
+                        
+                            }
+                        
+                                .programm-class {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-evenly;
+                                    margin: 39px 0px 37px 57px;
+                                }
+                                .programm-class-general .section-title {
+                        
+                                    font-size: 26px;
+                                    line-height: 26px;
+                                }
+                        
+                                .programm-class .infocard {
+                                    max-width: 186px;
+                                    min-height: 147px;
+                                    border-radius: 15px;
+                        
+                                }
+                                .programm-class .imgcard {
+                                    max-width: 186px;
+                                    border-radius: 5px 5px 0 0;
+                        
+                                }
+                                .programm-class .info {
+                                    width: 100%;
+                                    padding: 0px 0px 5px 10px;
+                                }
+                        
+                                .programm-class .subtitle {
+                                    font-size: 14px;
+                                    line-height: 14px;
+                                    padding-top: 0px;           
+                                }
+                                .programm-class .date-name {
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                    padding-top: 5px;
+                        
+                                }
+                                .programm-class .date-name-long{
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                    padding-top: 0px;
+                        
+                                }
+                                .zero{
+                                    display: none;
+                                }
+                                        .kurscount{
+                                            padding-top: 42px;
+                                            padding-bottom: 53px;
+                                            background-color: #EFEFEF;
+                                        }
+                                        .kurscount .section-title{
+                                            font-size: 26px;
+                                            line-height: 26px;
+                                        }
+                                        .kurscount .review-card{
+                                            max-width: 308px;
+                                            box-sizing: border-box;
+                                            border-radius: 17px;
+                                            background-color: #fff;
+                                            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+                                            margin-top: 27px;
+                                            /* margin-left: auto;
+                                            margin-right: auto; */
+                                            padding: 22px 18px ;
+                                        }
+                                        .kurscount .review-card p{
+                                            font-family: 'Roboto';
+                                            
+                                            font-weight: 400;
+                                            font-size: 10px;
+                                            line-height: 150%;
+                                        }
+                                        .kurscount .author{
+                                            display: flex;
+                                            
+                                            padding-right: 13px;
+                                        }
+                                        .kurscount .review-card img{
+                                            width: 80px;
+                                            height: 84px;
+                                        }
+                                        .kurscount .review-card h3{
+                                            font-family: Roboto Slab;
+                                            font-weight: 700;
+                                            font-size: 14px;
+                                            line-height: 101.38%;
+                                        }
+                                        .kurscount .review-card .contact img{
+                                            width: 14px;
+                                            height: 17px;
+                                            padding-top: 10px;
+                                        }
+                                        .kurscount .review-card .contact{  
+                                            margin-left: 13px;
+                                        }
+                                        .start-course{
+                                            width: 100%;
+                                            min-width: 375px;
+                                            margin-left: auto;
+                                            /* height: 300px; */
+                                            }
+                                            
+                                            .start-course{
+                                            width: 100%;
+                                            margin: 0;
+                                            background-color: #9DC9C8;
+                                            margin-top: 0px;
+                                            font-family: 'Roboto';
+                                            font-weight: 400;
+                                            }
+                                            .start-course .information{
+                                            margin-left: 0px;
+                                            margin-bottom: 0px;
+                                            padding: 0px 0px 0px 0px;
+                                            }
+                                            .start-course .section-title{
+                                            padding-top: 62px;
+                                            margin-top: 0px;
+                                            font-size: 26px;
+                                            width: 210px;
+                                            font-family: 'Roboto Slab';
+                                            font-weight: 700;
+                                            color: #000000;
+                                            }
+                                            .start-course .price-tag{
+                                                margin-top: 35px;
+                                                margin-bottom: 36px;
+                                            }
+                                            
+                                            .start-course .price{
+                                            font-size: 12px;
+                                            line-height: 12px;
+                                            font-family: 'Roboto';
+                                            font-weight: 400;
+                                            margin: 0px;
+                                            color: #000000;
+                                            }
+                                            .start-course .num{
+                                            font-size: 37px;
+                                            line-height: 37px;
+                                            font-weight: 400px;
+                                            font-family: 'Roboto';
+                                            color: #000000;
+                                            margin-top: 0px;
+                                            padding: 0px;
+                                            
+                                            }
+                                            .start-course .information-text{
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            max-width: 320px;
+                                            margin-top: 0px;
+                                            }
+                                            .start-course .information-text .subtitle{
+                                            font-size: 12px;
+                                            line-height: 12px;
+                                            margin: 0px;
+                                            font-weight: 400;
+                                            font-family: 'Roboto';
+                                            margin-bottom: 9px;
+                                            
+                                            }
+                                            .start-course .information-text .text{
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                            font-family: 'Roboto';
+                                            font-weight: 400;
+                                            color: #000000;
+                                            padding-right: 21px;
+                                            
+                                            }
+                                            footer{
+                                            width: 100%;
+                                            min-width: 375px;
+                                            }
+                                            
+                                            footer .logo img {
+                                            width: 53px;
+                                            height: 31px;
+                                            margin-top: 16px;
+                                            margin-left: 0px;
+                                            }
+                                            
+                                            footer .icons{
+                                            width: 99px;
+                                            margin-top: 0px;
+                                            margin-bottom: 0px;
+                                            
+                                            }
+                                            
+                                            footer .logo-contacts{
+                                            flex-direction: column;
+                                            font-size: 12px;
+                                            line-height: 12px;
+                                            min-width: 375px;
+                                            padding-top: 20px;
+                                            }
+                                            footer .mobile p {
+                                            margin: 0px;
+                                            }
+                                            
+                                            footer .mobile{
+                                            margin-left: 0px;
+                                            }
+                                            
+                                            footer .mail{
+                                            margin-left: 0px;
+                                            }
+                                            
+                                            footer .mail p {
+                                            margin-top: 0px;
+                                            }
+                                            footer .logo-contacts .contacts img {
+                                            width: 12px;
+                                            height: 12px;
+                                            }
+                                            footer .contacts{
+                                                margin-top: 30px;
+                                            }
+                                            
+                                            footer .icons img{
+                                            width: 15px;
+                                            height: 15px;
+                                            
+                                            }
+                                            
+                                            footer .mark{
+                                            font-size: 10px;
+                                            line-height: 10px;
+                                            margin-left: 0px;
+                                            margin-top: 35px;
+                                            padding-bottom: 30px;
+                                            }
+                                                                                                                                                             
+ }
+
+            
+                                                                            
